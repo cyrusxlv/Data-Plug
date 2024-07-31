@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #007BFF;
 }
 
 form {
@@ -62,4 +62,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.log-out {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 50px;
+    font-size: 20px;
 }
