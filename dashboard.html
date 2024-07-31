@@ -1,22 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DataPlug - Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dash.css">
 </head>
+
 <body>
     <div class="container">
-        <h1>DataPlug</h1>      
-        <h2>Dashboard</h2>
-        <p>Welcome to your dashboard!</p>
-        <div class="data-placeholder">
-            <!-- Placeholder for data -->
+        <div class="sidebar">
+            <div class="wallet-ballance"><h2>Wallet Balance</h2></div>
+            <ul>
+                <li><a href="#wallet-balance"> BalancWallete</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#wallet-transactions">Wallet Transactions</a></li>
+                <li><a href="#logout">Log Out</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <section id="wallet-balance">
+                <h1>Wallet Balance</h1>
+                <p>Your current wallet balance is $100.</p>
+            </section>
+            <section id="dashboard">
+                <h1>Dashboard</h1>
+                <p>Overview of your dashboard.</p>
+            </section>
+            <section id="services">
+                <h1>Services</h1>
+                <p>List of available services.</p>
+            </section>
+            <section id="wallet-transactions">
+                <h1>Wallet Transactions</h1>
+                <p>Details of your wallet transactions.</p>
+            </section>
+            <section id="logout">
+                <h1>Log Out</h1>
+                <p>You have been logged out.</p>
+            </section>
         </div>
     </div>
-   <div class="log-out">
-    <a href="index.html"> Log Out
-</div>
 </body>
+
 </html>
