@@ -12,28 +12,32 @@
 }
 
 .sidebar {
-    width: 300px;
+    width: 290px;
     background-color: #030125;
     color: #fff;
     padding: 20px;
 }
 
 .sidebar h2 {
-    padding-top: 15px;
-    font-size: medium;
     width: 250px;
     height: 150px;
     border: 2px solid #000;
-background-color: rgb(189, 114, 29);
+background-color: rgb(61, 76, 85);
 display: flex;
 justify-content: center;
+font-size: 50px;
+padding-top: 42px;
 border-radius: 6px;
+}
 
+.wallet-balance {
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .sidebar ul {
 padding-top: 30px;
-padding-left: 30px;
+padding-left: 50px;
 list-style: none;
 }
 
