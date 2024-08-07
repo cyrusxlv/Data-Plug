@@ -93,21 +93,23 @@ list-style: none;
 }
 
 .box-container {
-    width: 80%;
+    position: fixed;
+    top: 120px;
+    right: 13px;
+    width: 1200px;
+    background-color: white;
     display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-    box-sizing: border-box;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .box {
-    width: 45%;
-    margin-left: 20px;
-    padding: 20px;
+    width: 590px;
+    padding: 80px;
     box-sizing: border-box;
     background-color: #0056b3;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 .box-header {
@@ -118,7 +120,7 @@ list-style: none;
 
 .icon-user, .icon-wallet {
     font-size: 24px;
-    margin-right: 10px;
+    margin-right: 1px;
 }
 
 .box-content {
