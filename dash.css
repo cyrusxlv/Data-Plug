@@ -62,10 +62,78 @@ list-style: none;
     top: 0;
     right: 0;
     width: 81%;
-    background-color: #030125;
+    background-color: #050330;
     display: flex;
     flex-direction: row;
-    padding: 16px;
+    padding: 24.7px;
+}
+
+.home-button-container {
+    position: absolute;
+    top: 65px; /* this is the height of the banner */
+    left: 310px;
+}
+
+.home-button {
+    display: inline-block;
+    background-color: #042549;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.home-button i {
+    margin-right: 8px;
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+}
+
+.box-container {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.box {
+    width: 45%;
+    margin-left: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-user, .icon-wallet {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.box-content {
+    font-size: 18px;
+}
+
+.fund-button {
+    margin-left: auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
 }
 
 .main-content {
