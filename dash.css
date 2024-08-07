@@ -95,7 +95,7 @@ list-style: none;
 .box-container {
     position: fixed;
     top: 120px;
-    right: 13px;
+    right: 14px;
     width: 1200px;
     background-color: white;
     display: flex;
@@ -109,13 +109,14 @@ list-style: none;
     box-sizing: border-box;
     background-color: #0056b3;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
+    border-radius: 10px;
 }
 
 .box-header {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    color: white;
 }
 
 .icon-user, .icon-wallet {
@@ -125,6 +126,7 @@ list-style: none;
 
 .box-content {
     font-size: 18px;
+    color: white;
 }
 
 .fund-button {
@@ -136,19 +138,4 @@ list-style: none;
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
-}
-
-.main-content {
-    flex: 1;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-
-.main-content section {
-    margin-bottom: 20px;
-}
-
-.main-content h1 {
-    margin-bottom: 10px;
-    font-size: 24px;
 }
