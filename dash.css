@@ -139,3 +139,23 @@ list-style: none;
     font-size: 16px;
     border-radius: 5px;
 }
+
+.box-container-2 {
+    position: fixed;
+    top: 400px;
+    right: 14px;
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box3 {
+    width: 390px;
+    padding: 80px;
+    box-sizing: border-box;
+    background-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
