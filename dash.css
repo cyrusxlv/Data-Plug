@@ -159,3 +159,14 @@ list-style: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
+
+.box-container-3 {
+    position: fixed;
+    top: 650px;
+    right: 14px;
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
