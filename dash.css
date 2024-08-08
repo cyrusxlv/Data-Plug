@@ -14,19 +14,19 @@
     background-color: #030125;
     color: #fff;
     padding: 20px;
-    height: 100vh;
+    height: 1000px;
 }
 
 .sidebar h2 {
     width: 250px;
     height: 150px;
     border: 2px solid #000;
-background-color: rgb(61, 76, 85);
-display: flex;
-justify-content: center;
-font-size: 50px;
-padding-top: 42px;
-border-radius: 6px;
+    background-color: #0056b3;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 42px;
+    border-radius: 6px;
 }
 
 .wallet-balance {
@@ -35,9 +35,9 @@ border-radius: 6px;
 }
 
 .sidebar ul {
-padding-top: 30px;
-padding-left: 50px;
-list-style: none;
+    padding-top: 30px;
+    padding-left: 50px;
+    list-style: none;
 }
 
 .sidebar ul li {
@@ -58,7 +58,7 @@ list-style: none;
 }
 
 .banner {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     width: 81%;
@@ -70,7 +70,8 @@ list-style: none;
 
 .home-button-container {
     position: absolute;
-    top: 65px; /* this is the height of the banner */
+    top: 65px;
+    /* this is the height of the banner */
     left: 310px;
 }
 
@@ -93,10 +94,10 @@ list-style: none;
 }
 
 .box-container {
-    position: fixed;
+    position: absolute;
     top: 120px;
     right: 14px;
-    width: 1200px;
+    width: 1180px;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -104,10 +105,19 @@ list-style: none;
 }
 
 .box {
-    width: 590px;
+    width: 580px;
     padding: 80px;
     box-sizing: border-box;
     background-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.box2 {
+    width: 580px;
+    padding: 80px;
+    box-sizing: border-box;
+    background-color: #042549;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -117,9 +127,22 @@ list-style: none;
     align-items: center;
     margin-bottom: 10px;
     color: white;
+    font-size: 25px;
+}
+.user-icon {
+    margin-right: 20px;
 }
 
-.icon-user, .icon-wallet {
+.box2-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.icon-user,
+.icon-wallet {
     font-size: 24px;
     margin-right: 1px;
 }
@@ -141,10 +164,10 @@ list-style: none;
 }
 
 .box-container-2 {
-    position: fixed;
+    position: absolute;
     top: 400px;
     right: 14px;
-    width: 1200px;
+    width: 1180px;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -152,7 +175,7 @@ list-style: none;
 }
 
 .box3 {
-    width: 390px;
+    width: 385px;
     padding: 80px;
     box-sizing: border-box;
     background-color: #0056b3;
@@ -161,10 +184,10 @@ list-style: none;
 }
 
 .box-container-3 {
-    position: fixed;
+    position: absolute;
     top: 650px;
     right: 14px;
-    width: 1200px;
+    width: 1180px;
     background-color: white;
     display: flex;
     flex-direction: row;
