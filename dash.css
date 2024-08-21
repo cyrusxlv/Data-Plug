@@ -21,12 +21,16 @@
     width: 250px;
     height: 150px;
     border: 2px solid white;
-    background-color: #0056b3;
+    background-color: #36367e;
     display: flex;
     justify-content: center;
     font-size: 50px;
     padding-top: 42px;
     border-radius: 6px;
+}
+
+.sidebar h2:hover {
+    background-color: #0056b3;
 }
 
 .wallet-balance {
@@ -96,8 +100,8 @@
 .box-container {
     position: absolute;
     top: 120px;
-    right: 14px;
-    width: 1180px;
+    right: 300px;
+    width: 890px;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -105,7 +109,8 @@
 }
 
 .box {
-    width: 580px;
+    width: 380px;
+    height: 150px;
     padding: 80px;
     box-sizing: border-box;
     background-color: #0056b3;
@@ -114,7 +119,8 @@
 }
 
 .box2 {
-    width: 580px;
+    width: 480px;
+    height: 150px;
     padding: 80px;
     box-sizing: border-box;
     background-color: #042549;
