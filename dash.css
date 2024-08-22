@@ -83,7 +83,7 @@
     flex-direction: row;
     padding: 14.7px;
     background-color: #030125;
-    }
+}
 
 .search-bar {
     width: 300px;
@@ -157,8 +157,8 @@
 
 .box {
     width: 380px;
-    height: 150px;
-    padding: 80px;
+    height: 160px;
+    padding: 50px;
     box-sizing: border-box;
     background-color: #0056b3;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -167,8 +167,8 @@
 
 .box2 {
     width: 480px;
-    height: 150px;
-    padding: 80px;
+    height: 160px;
+    padding: 45px;
     box-sizing: border-box;
     background-color: #042549;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -178,11 +178,15 @@
 .box-header {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
     color: white;
     font-size: 25px;
 }
+
 .user-icon {
+    margin-right: 20px;
+}
+
+.wallet-icon {
     margin-right: 20px;
 }
 
@@ -203,6 +207,7 @@
 .box-content {
     font-size: 18px;
     color: white;
+    margin-top: 30px;
 }
 
 .fund-button {
