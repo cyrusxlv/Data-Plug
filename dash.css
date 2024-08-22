@@ -223,7 +223,7 @@
 
 .box-container-2 {
     position: absolute;
-    top: 400px;
+    top: 350px;
     right: 14px;
     width: 1180px;
     background-color: white;
@@ -234,20 +234,33 @@
 
 .box3 {
     width: 385px;
+    height: 160px;
     padding: 80px;
     box-sizing: border-box;
-    background-color: #0056b3;
+    border: 1px solid black;
+    background-color: #d4caf7;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
 .box-container-3 {
     position: absolute;
-    top: 650px;
+    top: 550px;
     right: 14px;
     width: 1180px;
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.box4 {
+    width: 385px;
+    height: 160px;
+    padding: 80px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: #d4caf7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
