@@ -105,7 +105,7 @@
     position: relative;
     height: 40px;
     width: 40px;
-    border: none;
+    border: 1px black;
     background-color: #49498b;
     border-radius: 0 20px 20px 0;
     color: white;
