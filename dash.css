@@ -173,7 +173,7 @@
 
 .box-header2 {
     display: flex;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 50px;
 }
 
@@ -186,6 +186,12 @@
     padding-top: 4px;
     padding-left: 15px;
 }
+
+#nin-details {
+    font-family: "Fira Sans", sans-serif;
+    padding: 20px 20px 30px 60px;
+}
+
 .user-icon {
     margin-right: 20px;
 }
