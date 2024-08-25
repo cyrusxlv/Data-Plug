@@ -5,6 +5,23 @@
     font-family: Arial, sans-serif;
 }
 
+.header {
+    position: relative;
+    width: 100%;
+    background-color: none; /* Adjust background color as needed */
+    z-index: 9999;
+}
+
+.avatar {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    width: 50px; /* Adjust the size of the image */
+    height: 50px; /* Adjust the size of the image */
+    border-radius: 50%; /* Makes the image round */
+    border: 2px solid white; /* Optional: adds a border around the image */
+}
+
 .container {
     display: flex;
 }
