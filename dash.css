@@ -14,12 +14,12 @@
 
 .avatar {
     position: absolute;
-    top: 10px; /* Adjust the top position as needed */
+    top: 3px; /* Adjust the top position as needed */
     right: 10px; /* Adjust the right position as needed */
-    width: 50px; /* Adjust the size of the image */
-    height: 50px; /* Adjust the size of the image */
+    width: 60px; /* Adjust the size of the image */
+    height: 60px; /* Adjust the size of the image */
     border-radius: 50%; /* Makes the image round */
-    border: 2px solid white; /* Optional: adds a border around the image */
+    border: 5px solid white; /* Optional: adds a border around the image */
 }
 
 .container {
