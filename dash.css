@@ -268,10 +268,10 @@
 .box3 {
     width: 385px;
     height: 160px;
-    border: 1px solid black;
+    border: 1px solid rgb(168, 152, 241);
     background-color: #d4caf7;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 .box-container-3 {
