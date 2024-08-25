@@ -189,7 +189,11 @@
 
 #nin-details {
     font-family: "Fira Sans", sans-serif;
-    padding: 20px 20px 30px 60px;
+    padding: 20px 20px 10px 60px;
+}
+
+.amount-btn {
+    padding-left: 240px;
 }
 
 .user-icon {
