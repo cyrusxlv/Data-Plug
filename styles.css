@@ -11,24 +11,31 @@ body {
 .logo-box {
     position: relative;
     width: 26%;
-    background-color: none; /* Adjust background color as needed */
+    background-color: none;
+    /* Adjust background color as needed */
     z-index: 9999;
 }
 
 .avatar {
     position: absolute;
-    top: 3px; /* Adjust the top position as needed */
-    right: 10px; /* Adjust the right position as needed */
-    width: 60px; /* Adjust the size of the image */
-    height: 60px; /* Adjust the size of the image */
-    border-radius: 50%; /* Makes the image round */
-    border: 5px solid rgb(156, 17, 168); /* Optional: adds a border around the image */
+    top: 3px;
+    /* Adjust the top position as needed */
+    right: 10px;
+    /* Adjust the right position as needed */
+    width: 60px;
+    /* Adjust the size of the image */
+    height: 60px;
+    /* Adjust the size of the image */
+    border-radius: 50%;
+    /* Makes the image round */
+    border: 5px solid rgba(80, 110, 241, 0.788);
+    /* Optional: adds a border around the image */
 }
 
 .container {
     background-color: #ffffff;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 300px;

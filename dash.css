@@ -19,7 +19,7 @@
     width: 60px; /* Adjust the size of the image */
     height: 60px; /* Adjust the size of the image */
     border-radius: 50%; /* Makes the image round */
-    border: 5px solid white; /* Optional: adds a border around the image */
+    border: 5px solid rgb(255, 255, 255); /* Optional: adds a border around the image */
 }
 
 .container {
